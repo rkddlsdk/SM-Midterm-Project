@@ -9,5 +9,15 @@ function preload() {
   image(img, 0, 0, width, height);  
 }
 
+function draw() {
+  
+  background(0);
+  image(img, 0, 0);
+}
+
+function mouseMoved() {
+  
+  console.log(`Mouse X: ${mouseX}, Mouse Y: ${mouseY}`);
+}
 
 
