@@ -1,10 +1,10 @@
 let img;
-
-function preload() {
-  img = loadImage('jj.png'); 
+function setup() {
+  img = loadImage("/Users/kang-in-ah/Downloads/jj.png");
+  createCanvas(400, 400);
 }
 
-function setup() {
-  createCanvas(500,500);  
-  image(img, 0, 10);  
+function draw() {
+  
+image(img, 20, 20, 60, 60);
 }
