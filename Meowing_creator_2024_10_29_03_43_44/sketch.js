@@ -11,7 +11,7 @@ function preload() {
 
 fill(164, 180, 203);
   noStroke(); 
-  triangle(583, 150, 674, 164, 591, 208) ;
+  triangle(583, 149, 674, 164, 590, 209) ;
 }
 
 function draw() {
