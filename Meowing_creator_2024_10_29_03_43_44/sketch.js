@@ -7,17 +7,14 @@ function preload() {
   function setup() {
   createCanvas(1280,720);  
   image(img, 0, 0, width, height);  
+
+
+fill(164, 180, 203);
+  noStroke(); 
+  triangle(583, 150, 674, 164, 591, 208) ;
 }
 
 function draw() {
   
-  background(0);
-  image(img, 0, 0);
 }
-
-function mouseMoved() {
-  
-  console.log(`Mouse X: ${mouseX}, Mouse Y: ${mouseY}`);
-}
-
 
